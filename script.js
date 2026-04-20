@@ -2,7 +2,7 @@ const list = document.createElement('ul');
 const info = document.createElement('p');
 const html = document.querySelector('html');
 
-info.textContent = 'Below is a dynamic list. Click anywhere on the page to add a new list item. Click an existing list item to change its text to something else.';
+info.textContent = 'Voici une liste dynamique. Cliquez n&apos;importe où sur la page pour ajouter un nouvel élément. Cliquez sur un élément existant pour modifier son texte.';
 
 document.body.appendChild(info);
 document.body.appendChild(list);
